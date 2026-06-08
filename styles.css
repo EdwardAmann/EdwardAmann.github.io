@@ -209,19 +209,15 @@ h2 {
 }
 
 .project-media {
-  min-height: 190px;
-  background:
-    linear-gradient(135deg, rgba(15, 118, 110, 0.78), rgba(199, 81, 70, 0.62)),
-    repeating-linear-gradient(45deg, rgba(255,255,255,0.24) 0 2px, transparent 2px 16px);
-}
-
-.media-two {
-  background:
-    linear-gradient(135deg, rgba(181, 139, 42, 0.82), rgba(15, 118, 110, 0.58)),
-    radial-gradient(circle at 30% 30%, rgba(255,255,255,0.48), transparent 28%);
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #dfe5df;
 }
 
 .media-three {
+  min-height: 190px;
   background:
     linear-gradient(135deg, rgba(24, 35, 34, 0.9), rgba(199, 81, 70, 0.64)),
     linear-gradient(90deg, rgba(255,255,255,0.2) 12%, transparent 12% 24%, rgba(255,255,255,0.16) 24% 36%, transparent 36%);
