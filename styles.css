@@ -216,13 +216,6 @@ h2 {
   background: #dfe5df;
 }
 
-.media-three {
-  min-height: 190px;
-  background:
-    linear-gradient(135deg, rgba(24, 35, 34, 0.9), rgba(199, 81, 70, 0.64)),
-    linear-gradient(90deg, rgba(255,255,255,0.2) 12%, transparent 12% 24%, rgba(255,255,255,0.16) 24% 36%, transparent 36%);
-}
-
 .project-copy {
   padding: 22px;
 }
@@ -266,9 +259,16 @@ h3 {
 
 .contact-links {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 12px;
   justify-content: flex-end;
+}
+
+.email-text {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 700;
 }
 
 .contact-links a {
