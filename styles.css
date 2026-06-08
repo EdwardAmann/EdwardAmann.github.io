@@ -119,20 +119,6 @@ p {
   overflow-wrap: anywhere;
 }
 
-.typewriter-ready.is-writing::after {
-  content: "|";
-  display: inline-block;
-  margin-left: 3px;
-  color: var(--coral);
-  animation: caret-blink 0.8s steps(1) infinite;
-}
-
-@keyframes caret-blink {
-  50% {
-    opacity: 0;
-  }
-}
-
 h1 {
   margin: 0;
   max-width: 10ch;
